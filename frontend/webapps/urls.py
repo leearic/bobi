@@ -18,6 +18,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name="index"),
-    url(r'^page/(\d{1,3})/$', views.index, name="pages"),
-    url(r'^detail/(.+)/$', views.detail, name="detail"),
+    # url(r'^page/(\d{1,3})/$', views.index, name="pages"),
+    # url(r'^detail/(.+)/$', views.detail, name="detail"),
 ]
